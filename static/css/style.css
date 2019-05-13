@@ -1,0 +1,49 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: auto;
+    position: relative;
+    background-color: lightslategrey;
+  }
+
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+
+.background-3 {
+    /* The image used */
+    background-image: url("oilrig.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .hero {
+    position: relative;
+    height: 550px;
+    padding: 20px;
+    margin: 0;
+    background: black;
+    background-image: url("../images/oilrig.jpg");
+    background-attachment: fixed;
+    background-position: bottom center;
+    background-size: cover;
+  }
+  
+  .hero h1 {
+    margin-top: 200px;
+    animation: title 1.2s forwards linear;
+  }
+  
+  .hero h2 {
+    opacity: 0;
+    animation: subtitle 1.2s forwards linear;
+    animation-delay: 1.2s;
+  }
