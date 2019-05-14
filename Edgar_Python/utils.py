@@ -69,3 +69,4 @@ def clean_text(text, min_word_len=4):
         words = remove_stopwords(words, min_word_len)
         words = lemmatize_words(words)
         return words
+    
