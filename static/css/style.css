@@ -62,15 +62,29 @@ body {
   animation: subtitle 1.2s forwards linear;
   animation-delay: 1.2s;
 }
-.container{
+.image{
   display: block;
   margin-left: auto;
   z-index: 3;
   margin-right: auto;
-  width: 100%;
+  width: 80%;
   padding: 50px;
 }
 
 ul{
   font-size: 30px;
+}
+.wordcloud{
+  display: block;
+  margin-left: auto;
+  z-index: 3;
+  margin-right: auto;
+  width: 80%;
+  padding: 50px;
+}
+.list{
+  padding: 200px;
+}
+.companylist{
+  padding: 100px
 }
