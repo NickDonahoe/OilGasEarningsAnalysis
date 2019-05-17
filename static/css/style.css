@@ -80,11 +80,20 @@ ul{
   z-index: 3;
   margin-right: auto;
   width: 80%;
-  padding: 50px;
+  padding: 100px;
 }
 .list{
-  padding: 200px;
+  /* padding: 200px; */
+  float: right;
+  width: 80%;
 }
 .companylist{
-  padding: 100px
+  padding: 100px; 
+}
+.textlist{
+  padding: 200px;
+  width: 100%;
+}
+.img{
+  float: left;
 }
