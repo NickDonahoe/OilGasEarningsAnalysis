@@ -1,7 +1,7 @@
 .navbar {
   overflow: hidden;
   z-index: 5;
-  background-color: #333;
+  background-color:black;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
@@ -29,7 +29,7 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: auto;
     position: relative;
-    background-color: lightslategrey;
+    background-color: black;
     color: white;
   }
 
@@ -70,10 +70,6 @@ body {
   width: 80%;
   padding: 50px;
 }
-
-ul{
-  font-size: 30px;
-}
 .wordcloud{
   display: block;
   margin-left: auto;
@@ -84,8 +80,9 @@ ul{
 }
 .list{
   /* padding: 200px; */
-  float: right;
+  float: left;
   width: 80%;
+  font-size: 20px;
 }
 .companylist{
   padding: 100px; 
@@ -96,4 +93,14 @@ ul{
 }
 .img{
   float: left;
+}
+.conclusionlist{
+  padding: 200px;
+  width: 200%;
+}
+.timelist{
+  /* padding: 200px; */
+  float: left;
+  width: 30%;
+  font-size: 20px;
 }
